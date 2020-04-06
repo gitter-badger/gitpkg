@@ -1,6 +1,6 @@
 {
   "name": "@gitpkg/core",
-  "version": "1.0.0-alpha",
+  "version": "1.0.0-alpha.0",
   "main": "dist/index.js",
   "types": "dist/index.d.js",
   "license": "MIT",
@@ -11,6 +11,6 @@
     "build": "rimraf dist && tsc -p tsconfig.prod.json --outDir dist --module CommonJS --declaration --sourceMap --declarationMap"
   },
   "dependencies": {
-    "tar-transform": "^1.0.0-alpha"
+    "tar-transform": "^1.0.0-alpha.2"
   }
 }
